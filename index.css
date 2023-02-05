@@ -1,0 +1,32 @@
+
+/*
+.nav-link{
+    opacity: 0.7;
+}
+  
+.nav-link: hover {
+    opacity: 1;
+    background-color: #000000;
+}
+
+.nav-item {
+    text-align: left;
+}
+*/
+  
+header {
+    height: 600px;
+    width: 100%;
+    background-image: url("img/cleaning.jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+  
+header p {
+    font-style: italic;
+}
+  
+header h1, p{
+    color: black;
+}
