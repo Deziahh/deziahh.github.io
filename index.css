@@ -13,6 +13,12 @@
     text-align: left;
 }
 
+body {
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+
   
 header {
     height: 600px;
@@ -22,11 +28,11 @@ header {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
-  
+/* 
 header p {
     font-style: italic;
 }
   
 header h1, p{
     color: black;
-}
+}*/
