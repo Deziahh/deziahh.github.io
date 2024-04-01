@@ -28,6 +28,22 @@ header {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
+
+.subtitle {
+    color: #FF9797;
+}
+
+#name {
+    line-height: 10px;
+}
+
+.creativeStatement {
+  margin: 1rem auto 0;
+  width: 75%;
+  padding-top: 10%;
+
+}
+
 /* 
 header p {
     font-style: italic;
