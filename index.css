@@ -17,6 +17,18 @@ body {
     margin-left: 20px;
     background-color: black;
     color: white;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
   
@@ -29,12 +41,28 @@ header {
     font-family: 'Bebas Neue', cursive;
 }
 
-.subtitle {
-    color: #FF9797;
+.title {
+  color: #c27272;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 105%;
+  margin: 0;
+  /*text-decoration: underline;*/
 }
 
-#name {
-    line-height: 10px;
+a {
+    color: #FF9797;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c27272;
+}
+
+.subtitle {
+    line-height: 5px;
 }
 
 .creativeStatement {
