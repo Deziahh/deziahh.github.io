@@ -62,6 +62,18 @@ a:hover {
     color: #869f77;
 }
 
+.projectDes {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: justify;
+    align-content: center;
+    margin: 0 auto;
+ }
+
 footer {
     margin-top: 50px;
     font-size: 1.2em;
